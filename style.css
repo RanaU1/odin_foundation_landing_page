@@ -39,6 +39,14 @@ header {
     margin: 10px;
 }
 
+.header_links div:hover {
+    color: rgb(164, 6, 255);
+    font-weight: 700;
+    transform: scale(1.1);
+    transition: all 1s ease;
+    border: 1px solid white;
+}
+
 .main_content {
     display: flex;
     flex-flow: row wrap;
