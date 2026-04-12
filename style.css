@@ -30,6 +30,14 @@ header {
     font-size: 30px;
     font-weight: 800;
     /* white-space: nowrap; */
+    transition: color 0.5s ease,
+        transform 1.5s ease;
+    transform-origin: left center;
+}
+
+.header_logo:hover {
+    color: red;
+    transform: rotate(360deg) scale(1.5);
 }
 
 .header_links {
