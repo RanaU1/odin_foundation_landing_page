@@ -87,8 +87,8 @@ header {
 }
 
 .main_image {
-    background: rgb(160, 182, 128);
-    color: rgb(241, 110, 110);
+    background: rgb(240, 243, 236);
+    color: rgb(230, 4, 4);
     display: flex;
     flex-flow: row;
     justify-content: center;
