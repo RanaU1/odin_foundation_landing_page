@@ -111,6 +111,20 @@ header {
     aspect-ratio: 1/1;
     border: 3px solid blue;
     border-radius: 15px;
+    margin-bottom: 20px;
+
+    /* transition: all 0.5s ease; */
+    /* transition: border 0.3s ease, transform 1.3s ease; */
+    /* upper rather than writing in the one line i can separte like below */
+
+    transition: border 0.3s ease,
+        transform 1.3s ease;
+
+}
+
+.card_image:hover {
+    border: 20px solid red;
+    transform: scale(1.1);
 }
 
 .card_text {
@@ -118,4 +132,35 @@ header {
     text-align: center;
     font-weight: 800;
     /* text-align: center; */
+}
+
+.card_text:hover {
+    color: red;
+}
+
+.comment {
+    display: flex;
+    flex-flow: column nowrap;
+    background: #E5E7EB;
+    gap: 5px;
+}
+
+.comment .user_message {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    padding: 5vw 10vw;
+    text-align: right;
+}
+
+.comment .user_name {
+    font-size: 30px;
+    font-weight: 900;
+    align-self: flex-end;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.small_ad {
+    
 }
